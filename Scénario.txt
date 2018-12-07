@@ -1,0 +1,4 @@
+
+- Il faut d'abord installer la database "user_book.sql" sur phpmyadmin
+
+- Ensuite il suffit de lancer a partir de localhost le dossier php et de s'inscrire et se connecter sur le site pour pouvoir accèder au dashboard

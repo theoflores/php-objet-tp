@@ -36,10 +36,10 @@ if ($mode == "add_new" ) {
       $result = $stmt->rowCount();
       if ($result > 0) {
         $_SESSION["errorType"] = "success";
-        $_SESSION["errorMsg"] = "Contact added successfully.";
+        $_SESSION["errorMsg"] = "Contact ajouté avec succès";
       } else {
         $_SESSION["errorType"] = "danger";
-        $_SESSION["errorMsg"] = "Failed to add contact.";
+        $_SESSION["errorMsg"] = "Erreur dans l'ajout du contact";
       }
     } catch (Exception $ex) {
 
@@ -118,10 +118,10 @@ if ($mode == "add_new" ) {
        $res = $stmt->rowCount();
        if ($res > 0) {
         $_SESSION["errorType"] = "success";
-        $_SESSION["errorMsg"] = "Contact deleted successfully.";
+        $_SESSION["errorMsg"] = "Contact supprimé.";
       } else {
         $_SESSION["errorType"] = "info";
-        $_SESSION["errorMsg"] = "Failed to delete contact.";
+        $_SESSION["errorMsg"] = "Problème lors de la suppression du contact";
       }
      
    } catch (Exception $ex) {

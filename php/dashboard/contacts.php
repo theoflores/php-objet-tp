@@ -31,7 +31,7 @@ try {
         <form class="form-horizontal" name="contact_form" id="contact_form" enctype="multipart/form-data" method="post" action="process_form.php">
           <input type="hidden" name="mode" value="<?php echo ($_GET["m"] == "update") ? "update_old" : "add_new"; ?>" >
           <input type="hidden" name="old_pic" value="<?php echo $results[0]["profile_pic"] ?>" >
-          <input type="hidden" name="cid" value="<?php echo intval($results[0]["contact_id"]); ?>" >
+          <input type="hidden" name="cid" value="<?php echo intval($results[0]["id_contact"]); ?>" >
           <input type="hidden" name="pagenum" value="<?php echo $_GET["pagenum"]; ?>" >
           <fieldset>
             <div class="form-group">
