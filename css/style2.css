@@ -1,0 +1,140 @@
+body { 
+    background-color: rgb(255, 255, 255);
+    background-image: url("../img/Fall-Nature-Background-Pictures.jpg");
+}
+h1 {
+    color: rgb(0, 0, 0);
+}
+p {
+    color: rgb(0, 0, 0);
+}
+
+#TD {
+    position: absolute;
+    left: 45%;
+    top: -2%;
+}
+
+/* Firefox old*/
+@-moz-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+} 
+
+@-webkit-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+/* IE */
+@-ms-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+} 
+/* Opera and prob css3 final iteration */
+@keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+} 
+.blink-image {
+    -moz-animation: blink normal 5s infinite ease-in-out; /* Firefox */
+    -webkit-animation: blink normal 5s infinite ease-in-out; /* Webkit */
+    -ms-animation: blink normal 5 infinite ease-in-out; /* IE */
+    animation: blink normal 5 infinite ease-in-out; /* Opera and prob css3 final iteration */
+    position: absolute;
+    left: 43%;
+    top: 15%;
+}
+
+#nom {
+    position: absolute;
+    left: 50%;
+    top: 53%;
+}
+
+#nom2 {
+    position: absolute;
+    left: 44%;
+    top: 53%;
+}
+
+#mdp {
+    position: absolute;
+    left: 44%;
+    top: 56.5%;
+}
+
+#mdp2 {
+    position: absolute;
+    left: 50%;
+    top: 56.5%;
+}
+
+#wow {
+    position: absolute;
+    left: 42%;
+    top: 60%;
+}
+
+#wow2 {
+    position: absolute;
+    left: 40%;
+    top: 63%;
+}
+
+#wow3 {
+    position: absolute;
+    left: 48%;
+    top: 66%;
+}
+
+#wow4 {
+    position: absolute;
+    left: 50%;
+    top: 70%;
+}
+
+#ajp {
+    position: absolute;
+    left:42%;
+    top:71%;
+}
+
+#reset {
+    position: absolute;
+    left:55%;
+    top:60%;
+}
+
+#envoyer {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+}

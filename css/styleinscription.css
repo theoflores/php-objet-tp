@@ -1,0 +1,139 @@
+body { 
+    background-color: rgb(255, 255, 255); /* Couleur du background de la page */
+}
+h1 {
+    color: rgb(0, 0, 0); /* Couleur du texte */
+}
+p {
+    color: rgb(0, 0, 0);
+}
+
+#TD {
+    position: absolute; /* Position absolue (uniquement dans la page)*/
+    left: 45%; /* par rapport à la gauche de l'écran */
+    top: -2%; /* par rapport au haut de l'écran */
+}
+
+/* Firefox old*/
+@-moz-keyframes blink { /* effet "blink" (scintillement) */
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+} 
+
+@-webkit-keyframes blink { /* effet "blink" (scintillement) */
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+/* IE */
+@-ms-keyframes blink { /* effet "blink" (scintillement) */
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+} 
+/* Opera and prob css3 final iteration */
+@keyframes blink { /* effet "blink" (scintillement) */
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+} 
+.blink-image { /* image qui scintille */
+    -moz-animation: blink normal 5s infinite ease-in-out; /* Firefox */ 
+    -webkit-animation: blink normal 5s infinite ease-in-out; /* Webkit */
+    -ms-animation: blink normal 5 infinite ease-in-out; /* IE */
+    animation: blink normal 5 infinite ease-in-out; /* Opera and prob css3 final iteration */
+    position: absolute;
+    left: 43%;
+    top: 15%;
+}
+
+#nom {
+    position: absolute; /* Position absolue (uniquement dans la page)*/
+    left: 50%; /* par rapport à la gauche de l'écran */
+    top: 53%;
+}
+
+#nom2 {
+    position: absolute; /* Position absolue (uniquement dans la page)*/
+    left: 44%; /* par rapport à la gauche de l'écran */
+    top: 53%;
+}
+
+#mdp {
+    position: absolute; /* Position absolue (uniquement dans la page)*/
+    left: 44%; /* par rapport à la gauche de l'écran */
+    top: 56.5%;
+}
+
+#mdp2 {
+    position: absolute; /* Position absolue (uniquement dans la page)*/
+    left: 50%; /* par rapport à la gauche de l'écran */
+    top: 56.5%;/* par rapport au haut de l'écran */
+}
+
+#wow {
+    position: absolute; /* Position absolue (uniquement dans la page)*/
+    left: 42%; /* par rapport à la gauche de l'écran */
+    top: 60%; /* par rapport au haut de l'écran */
+}
+
+#wow2 {
+    position: absolute; /* Position absolue (uniquement dans la page)*/
+    left: 40%; /* par rapport à la gauche de l'écran */
+    top: 63%; /* par rapport au haut de l'écran */
+}
+
+#wow3 {
+    position: absolute; /* Position absolue (uniquement dans la page)*/
+    left: 48%; /* par rapport à la gauche de l'écran */
+    top: 66%; /* par rapport au haut de l'écran */
+}
+
+#wow4 {
+    position: absolute; /* Position absolue (uniquement dans la page)*/
+    left: 50%; /* par rapport à la gauche de l'écran */
+    top: 70%; /* par rapport au haut de l'écran */
+} 
+
+#ajp {
+    position: absolute; /* Position absolue (uniquement dans la page)*/
+    left:42%; /* par rapport à la gauche de l'écran */
+    top:71%; /* par rapport au haut de l'écran */
+}
+
+#reset {
+    position: absolute; /* Position absolue (uniquement dans la page)*/
+    left:52.3%; /* par rapport à la gauche de l'écran */
+    top:75%; /* par rapport au haut de l'écran */
+}
+
+#envoyer {
+    position: absolute; /* Position absolue (uniquement dans la page)*/
+    left: 49%; /* par rapport à la gauche de l'écran */
+    top: 75%; /* par rapport au haut de l'écran */
+}
